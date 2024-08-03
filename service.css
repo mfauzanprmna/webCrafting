@@ -1,5 +1,6 @@
 .pricePage {
-    background: #D9D9D9;
+    background: #D93F87;
+    color: white;
 }
 
 a {
@@ -13,7 +14,7 @@ a {
 .achievePage .gambar {
     width: 100%;
     margin: auto;
-    background-color: #D9D9D9;
+    background: linear-gradient(to right, #FFC0CB, #fff, #A590CB);
     padding: 30px;
 }
 
