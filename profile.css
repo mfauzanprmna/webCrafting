@@ -1,0 +1,84 @@
+.sampul {
+    background-image: url(image/1246578.jpg);
+    background-size: cover;
+    box-shadow: 0 2px 10px gray;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.profile .profileAkun {
+    line-height: 20%;
+}
+
+.profile img {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 100%;
+    margin-top: -7%;
+    box-shadow: 5px 5px 10px gray;
+}
+
+@media screen and (max-width: 672px) {
+    .profile .profileAkun {
+        font-size: 10px;
+        margin-left: 20px;
+    }
+
+    .profile .profileAkun h1 {
+        font-size: 10px;
+    }
+
+    .profile img {
+        width: 25%;
+        border-radius: 100%;
+        margin-top: -7%;
+        box-shadow: 5px 5px 10px gray;
+    }
+}
+
+@media screen and (min-width: 673px) {
+    .content {
+        height: 50vh;
+    }
+}
+
+.cardActivity {
+    background-color: #A590CB;
+}
+
+
+
+.owl-carousel .owl-stage-outer .owl-stage .owl-item {
+    height: 15rem;
+}
+
+.activityList img {
+    height: 100%;
+}
+
+
+.activityList {
+    height: 100%;
+    position: relative;
+}
+
+.activityList .activityLabel {
+    position: absolute;
+    /* top: 0; */
+    bottom: 5%;
+    left: 5%;
+    right: 0;
+    /* background: rgba(0, 0, 0, 0.72); */
+    color: black;
+    visibility: visible;
+    opacity: 1;
+    align-content: center;
+    margin: 0;
+    width: 100%;
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}

@@ -1,0 +1,40 @@
+.ourStory {
+    background: #282828;
+    color: white !important;
+}
+
+.visiPage {
+    background: #D9D9D9;
+}
+
+
+.cardTeam {
+    width: 50%;
+}
+
+.cardTeam img {
+    width: 100%;
+    border: 10px solid black;
+}
+
+.aboutPage .imageMenu img {
+    width: 150px;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+@media screen and (min-width: 1215px) {
+    .aboutPage .imageMenu img {
+        width: 240px;
+        margin-right: 2%;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 1215px) and (min-width: 1201px) {
+    .aboutPage .imageMenu img {
+        width: 190px;
+        margin-right: 2%;
+        margin-bottom: 2%;
+    }
+}

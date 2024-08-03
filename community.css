@@ -1,0 +1,60 @@
+.communityList {
+    width: 100%;
+    max-width: 450px; /* Ukuran maksimal item */
+    position: relative;
+    margin: auto; /* Pusatkan item */
+}
+
+.communityList img {
+    width: 100%;
+}
+
+.communityList .communityLabel {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 0;
+    color: #fff;
+    visibility: visible;
+    opacity: 1;
+    align-content: center;
+    margin: 0;
+    width: 100%;
+    transition: opacity .2s, visibility .2s;
+}
+
+.headCommunity {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(image/1246578.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.eventList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .eventList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .eventList {
+        grid-template-columns: repeat(2, 1fr); /* Tampilkan 2 kolom pada layar medium */
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .eventList {
+        grid-template-columns: 1fr; /* Tampilkan 1 kolom pada layar kecil */
+    }
+}
