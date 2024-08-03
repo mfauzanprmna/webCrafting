@@ -20,12 +20,16 @@
     width: 100%;
     height: 25rem;
     object-fit: cover;
-    border: 10px solid black;
+    border: 10px solid #FFC0CB;
 }
 
 .aboutPage {
     padding: 20%;
     background: #FFC0CB;
+}
+
+.aboutPage .container {
+    padding: 0 5%;
 }
 
 .imageMenu img {
@@ -45,4 +49,8 @@
         margin-right: 2%;
         margin-bottom: 2%;
     }
+}
+
+.imageMenu img:hover {
+    background-color: rgba(0, 0, 0, 0.7);
 }
